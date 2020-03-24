@@ -12,6 +12,9 @@ $(document).ready(function () {
         $(this).siblings(".img").toggleClass("plus")
         $(this).siblings(".img").toggleClass("minus")
     })
+
+    let shop = new MyShop();
+    console.log(shop.route())
 });
 
 $( function() {

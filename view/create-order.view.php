@@ -1,4 +1,4 @@
-<?php require "header.view.php"?>
+<?php require "layouts/header.view.php"?>
 
 <div class="row body">
     <div class="col-1"></div>
@@ -60,4 +60,4 @@
     <div class="col-1"></div>
 </div>
 
-<?php require "footer.view.php"?>
+<?php require "layouts/footer.view.php"?>
