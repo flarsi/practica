@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Notable&display=swap');
+
+input, button {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+
+body {
+    background-color: #fbf3eb;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+}
+.header {
+    display: flex;
+    background: url("../images/shapka.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    width: 100%;
+    max-height: 237px;
+    height: 100vh;
+}
+
+.logo{
+    position: absolute;
+}
+
+.search{
+    border-radius: 25px;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.aboutUs{
+    background-image: url("../images/aboutUs.png");
+}
+
+.glovo{
+    background-image: url("../images/glovo.png");
+}
+
+.glovo, .aboutUs{
+    width: 110px;
+    height: 25px;
+    background-repeat: no-repeat;
+    margin:10px 0 10px 0;
+}
+
+.glovo:hover, .aboutUs:hover{
+    cursor: pointer;
+}
+
+.header-text{
+    font: 20px/1 'Notable', sans-serif;
+    text-align: center;
+    -webkit-text-fill-color: white;
+    text-shadow:
+            3px  3px 0 #3281ff,
+            -1px -1px 0 #3281ff,
+            1px -1px 0 #3281ff,
+            -1px  1px 0 #3281ff,
+            1px  1px 0 #3281ff;
+}
+
+@font-face {
+    font-family: "RotondaBold";
+    src: url("../styles/converted-files/RotondaBold.svg#RotondaBold") format("svg"),
+    url("../styles/converted-files/RotondaBold.ttf") format("truetype"),
+    url("../styles/converted-files/RotondaBold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text{
+    font-family:"Times New Roman";
+    color: #000000;
+    font-size: 10pt;
+    font-weight: normal;
+}
+
+.brend-text{
+    font-family: "Italic";
+    color: #000000;
+    font-size: 10pt;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+.big-text{
+    font-size: 15pt;
+    color: #005cbf;
+    margin: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer{
+    background: url("../images/footer.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 15%;
+}
+
+.footer-item{
+    margin: 5px;
+    margin-top: 40px;
+}
+
+.footer-icon{
+    margin: 5px;
+    height: 15px;
+}
+
+.footer-content{
+    margin-left: 0;
+}
+
+.footer-logo{
+    margin-top: 0;
+}
+
+.reclam{
+    background-image: url("../images/ban.png");
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.shit{
+    height: 52px;
+    width: 100px;
+    padding: 0;
+    max-width: none;
+}
+
+body{
+    padding-right: 0;
+}
+
+.basket{
+    background-image: url("../images/sky.png");
+    height: 152px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.basket-button{
+    border-radius: 20px;
+    padding:0 4px;
+}
+
+.brends{
+    background-image: url("../images/brends.png");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.reclam-2{
+    background-image: url("../images/reclam.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 118px;
+}
+
+.car-img{
+}
+
+a{
+    color: black;
+}
+
+.news{
+    background-image: url("../images/news.png");
+    height: 435px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.news-date{
+    background-image: url("../images/date.png");
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: 500;
+}
+
+.news-heading{
+    color: #005cbf;
+    text-decoration: underline;
+}
+
+.more-details{
+    text-decoration: underline;
+}
+
+.news-all{
+    color: #005cbf;
+    text-decoration: underline;
+}
+
+.path{
+    color: #005cbf;
+}
+
+.path:hover{
+    text-decoration: underline;
+}
+
+.back-img{
+    background-color: white;
+    border: dashed #bfab0d;
+    border-radius: 7px;
+}
+
+.price{
+    font-size: 16pt;
+    font-weight: 700;
+    color: white;
+    background-color: #b3d7ff;
+    border: dotted rgba(0, 0, 255, 0.42) 2px;
+    border-radius: 20px 0 20px 0;
+    width: max-content;
+}
+
+.buy-button{
+    background-color: #ffd700;
+    padding: 5px;
+    font-size: 15pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 20px 0 20px 0;
+    border: rgba(173, 135, 0, 0.56) dotted 2px;
+}
+
+tbody>tr{
+    border-bottom: dotted gray 2px;
+}
+
+p {
+    text-indent: 20px;
+}
+
+.from-price, .before-price,.from-weight, .before-weight{
+    border-radius: unset;
+    width: 50px;
+    background-color: rgba(128, 128, 128, 0.25);
+    border: inset;
+}
+
+.weight-slide{
+    background-image: url("../images/slide-back.png");
+    width: 100%;
+    background-size: 100%;
+    height: 263px;
+    background-repeat: no-repeat;
+}
+
+.sprite{
+    background-image: url("../images/sprite.png");
+    width: 100%;
+    background-size: 100%;
+    height: 335px;
+    background-repeat: no-repeat;
+}
+
+div.disable > div{
+    display: none;
+}
+
+div.active > div{
+    display: block;
+    background-color: rgba(255, 228, 251, 0.31);
+    text-decoration: underline;
+}
+
+div.plus{
+ background-image: url("../images/plus.png");
+    height: 14px;
+    width: 14px;
+}
+div.minus{
+ background-image: url("../images/minus.png");
+    height: 14px;
+    width: 14px;
+}
+
+.order-form{
+    background-image: url("../images/order-backgraund.png");
+    background-size: 100%;
+    /*width: 220px;*/
+    /*height: 550px;*/
+    background-repeat: no-repeat;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.order-input{
+    background-color: rgba(128, 128, 128, 0.25);
+}
