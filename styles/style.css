@@ -304,15 +304,24 @@ div.minus{
 .order-form{
     background-image: url("../images/order-backgraund.png");
     background-size: 100%;
-    /*width: 220px;*/
-    /*height: 550px;*/
+    height: 1000px;
     background-repeat: no-repeat;
-}
-
-ul{
-    list-style-type: none;
 }
 
 .order-input{
     background-color: rgba(128, 128, 128, 0.25);
+    width: 75%;
+}
+
+.product{
+    background-image: url("../images/product-backgraund.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 400px;
+    height: 55px;
+    align-items: center;
+}
+
+.cross{
+    height: 20px;
 }

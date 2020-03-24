@@ -60,7 +60,7 @@
                             </table>
                         </div>
                         <div class="col">
-                            <button class="buy-button m-2" >
+                            <button class="buy-button m-2">
                                 <img src="../images/basket-icon.png" class="m-1" alt="">купить
                             </button>
                         </div>
