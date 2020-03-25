@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Dva gusya</title>
-    <link rel="stylesheet" href="../styles/bootstrap.min.css">
-    <link rel="stylesheet" href="../styles/converted-files/font.css">
-    <link rel="stylesheet" href="../styles/jquery-ui.min.css">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../../public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../public/css/converted-files/font.css">
+    <link rel="stylesheet" href="../../public/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="../../public/css/style.css">
     <script src="https://kit.fontawesome.com/6a89a444bb.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -45,16 +45,16 @@
         </div>
 
         <div class="col-4 header-item pos" style="z-index: 0">
-            <a href="/"><img  src="../images/logo.png" alt="" class="h-75 logo"></a>
+            <a href="/"><img  src="../../public/images/logo.png" alt="" class="h-75 logo"></a>
         </div>
 
         <div class="row col-4 header-item" style="z-index: 1">
             <div class="row">
                 <div class="col-2"></div>
                 <div class="col-8">
-                    <img src="../images/raspisanie.png" alt="" class="m-2">
-                    <img src="../images/tel.png" alt="" class="m-2">
-                    <img src="../images/teleph.png" alt="" class="m-2">
+                    <img src="../../public/images/raspisanie.png" alt="" class="m-2">
+                    <img src="../../public/images/tel.png" alt="" class="m-2">
+                    <img src="../../public/images/teleph.png" alt="" class="m-2">
                 </div>
                 <div class="col-2"></div>
             </div>

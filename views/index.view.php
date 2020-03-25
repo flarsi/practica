@@ -9,9 +9,9 @@
                         <div class="col-4">
                             <div class="col">
                                 <div class="row">
-                                    <img class="col-5 m-0" src="./images/kolas.png" alt="">
+                                    <img class="col-5 m-0" src="../public/images/kolas.png" alt="">
                                     <div class="col-7 m-0 col-7 m-0 text big-text">
-                                        <a href="/view/kolaski.view.php">Коляски</a>
+                                        <a href="/views/kolaski.view.php">Коляски</a>
                                     </div>
                                 </div>
                                 <div class="col">
@@ -29,7 +29,7 @@
                             <br>
                             <div class="col">
                                 <div class="row">
-                                    <img class="col-5 m-0" src="./images/mebel.png" alt="">
+                                    <img class="col-5 m-0" src="../public/images/mebel.png" alt="">
                                     <div class="col-7 m-0 text big-text m-0">Мебель и матрасы</div>
                                 </div>
                                 <div class="col">
@@ -44,7 +44,7 @@
                             <br>
                             <div class="col">
                                 <div class="row">
-                                    <img class="col-5 m-0" src="./images/set.png" alt="">
+                                    <img class="col-5 m-0" src="../public/images/set.png" alt="">
                                     <div class="col-7 m-0 text big-text">Автокресла</div>
                                 </div>
                                 <div class="col">
@@ -61,7 +61,7 @@
                             <br>
                             <div class="col">
                                 <div class="row">
-                                    <img class="col-5 m-0" src="./images/razw.png" alt="">
+                                    <img class="col-5 m-0" src="../public/images/razw.png" alt="">
                                     <div class="col-7 m-0 text big-text">Развитие</div>
                                 </div>
                                 <div class="col">
@@ -74,7 +74,7 @@
                             <br>
                             <div class="col">
                                 <div class="row">
-                                    <img class="col-5 m-0" src="./images/konk.png" alt="">
+                                    <img class="col-5 m-0" src="../public/images/konk.png" alt="">
                                     <div class="col-7 m-0 text big-text">Зимние товары</div>
                                 </div>
                                 <div class="col">
@@ -90,7 +90,7 @@
                         <div class="col-4">
                             <div class="col">
                                 <div class="row">
-                                    <img class="col-5 m-0" src="./images/odezda.png" alt="">
+                                    <img class="col-5 m-0" src="../public/images/odezda.png" alt="">
                                     <div class="col-7 m-0 text big-text">Одежда и обувь для малышей</div>
                                 </div>
                                 <div class="col">
@@ -107,7 +107,7 @@
                             </div>
                             <br>
                             <div class="col">
-                                <div class="row"><img class="col-5 m-0" src="./images/chil.png" alt=""><div class="col-7 m-0 text big-text">Одежда для беременных</div>
+                                <div class="row"><img class="col-5 m-0" src="../public/images/chil.png" alt=""><div class="col-7 m-0 text big-text">Одежда для беременных</div>
                                 </div>
                                 <div class="col">
                                     <a href="" class="text" style="font-weight: 700">Одежда для беременных</a><br>
@@ -144,7 +144,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="row">
-                                        <img class="col-5 m-0" src="./images/sale.png" alt="">
+                                        <img class="col-5 m-0" src="../public/images/sale.png" alt="">
                                         <div class="col-7 m-0 text big-text">Товары по сниженным ценам</div>
                                     </div>
                                     <div class="col">
@@ -159,7 +159,7 @@
                             <div class="col-4">
                                 <div class="col">
                                     <div class="row">
-                                        <img class="col m-0 shit" src="./images/gig.png" alt="">
+                                        <img class="col m-0 shit" src="../public/images/gig.png" alt="">
                                         <div class="col m-0 text big-text">Гигиена</div>
                                     </div>
                                     <div class="col">
@@ -171,7 +171,7 @@
                                 <br>
                                 <div class="col">
                                     <div class="row">
-                                        <img class="col-5 m-0 shit" src="./images/toys.png" alt="">
+                                        <img class="col-5 m-0 shit" src="../public/images/toys.png" alt="">
                                         <div class="col-7 m-0 text big-text">Игрушки</div>
                                     </div>
                                     <div class="col">
@@ -185,7 +185,7 @@
                                 <br>
                                 <div class="col">
                                     <div class="row">
-                                        <img class="col-5 m-0 shit" src="./images/actiontoys.png" alt="">
+                                        <img class="col-5 m-0 shit" src="../public/images/actiontoys.png" alt="">
                                         <div class="col-7 m-0 text big-text">Активные игры</div>
                                     </div>
                                     <div class="col">
@@ -199,7 +199,7 @@
                             <br>
                             <div class="col">
                                 <div class="row">
-                                    <img class="col-5 m-0" src="./images/mom.png" alt="">
+                                    <img class="col-5 m-0" src="../public/images/mom.png" alt="">
                                     <div class="col-7 m-0 text big-text">Товары для мам и малышей, электроника</div>
                                 </div>
                                 <div class="col">
@@ -287,7 +287,7 @@
 
                     <div class="col row reclam-2 m-0 p-0">
                         <div class="col-4 p-0 m-2">
-                            <img src="./images/deliv.png" alt="" class="car-img m-3 h-50">
+                            <img src="../public/images/deliv.png" alt="" class="car-img m-3 h-50">
                         </div>
                         <div class="col-6 p-0 m-1 p-0">
                             <div class="col big-text" style="font-size: 10pt">Бесплатная доставка</div>

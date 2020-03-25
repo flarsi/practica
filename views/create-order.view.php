@@ -27,13 +27,13 @@
                             <div class="col-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
                             <div class="col">1 шт.</div>
                             <div class="col">14900 р.</div>
-                            <div class="col"><img class="cross" src="../images/cross.png" alt=""></div>
+                            <div class="col"><img class="cross" src="../public/images/cross.png" alt=""></div>
                         </div>
                         <div class="row product m-1">
                             <div class="col-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
                             <div class="col">1 шт.</div>
                             <div class="col">14900 р.</div>
-                            <div class="col"><img class="cross" src="../images/cross.png" alt=""></div>
+                            <div class="col"><img class="cross" src="../public/images/cross.png" alt=""></div>
                         </div>
                         <button class="buy-button m-0" style="text-transform: lowercase">Оформить заказ</button>
                     </div>

@@ -14,7 +14,7 @@
                 <div class="col">
                     <div class="col big-text" style="font-size: 16pt">Lorem ipsum dolor sit amet.</div>
                     <div class="col row">
-                    <div class="col-6"><img src="../images/kolaska.png" alt=""></div>
+                    <div class="col-6"><img src="../public/images/kolaska.png" alt=""></div>
                     <div class="col-6">
                         <div class="col price">14590 Р.</div>
                         <div class="col"></div>
@@ -53,7 +53,7 @@
                                 <tfoot>
                                 <tr>
                                     <td>
-                                        <img class="m-2" src="../images/nal.png" alt="">
+                                        <img class="m-2" src="../public/images/nal.png" alt="">
                                     </td>
                                 </tr>
                                 </tfoot>
@@ -61,7 +61,7 @@
                         </div>
                         <div class="col">
                             <button class="buy-button m-2">
-                                <img src="../images/basket-icon.png" class="m-1" alt="">купить
+                                <img src="../public/images/basket-icon.png" class="m-1" alt="">купить
                             </button>
                         </div>
                     </div>

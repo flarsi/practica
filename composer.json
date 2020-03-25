@@ -1,4 +1,20 @@
 {
-    "name": "professional/practika-2",
-    "require": {}
+    "name": "professional/fastshop",
+    "authors": [
+        {
+            "name": "Danil Dan",
+            "email": "danil@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Composer\\": "src/Composer"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Composer\\Test\\": "tests/Composer/Test"
+        }
+    }
 }
