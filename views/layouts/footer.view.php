@@ -17,9 +17,6 @@
         <div class="col-1"></div>
     </div>
 </div>
-
-<script src="../../public/js/jquery.min.js"></script>
-<script src="../../public/js/jquery-ui.min.js"></script>
 <script src="../../public/js/js.js"></script>
 </body>
 </html>

@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="../../public/css/jquery-ui.min.css">
     <link rel="stylesheet" href="../../public/css/style.css">
     <script src="https://kit.fontawesome.com/6a89a444bb.js" crossorigin="anonymous"></script>
+    <script src="../../public/js/jquery.min.js"></script>
+    <script src="../../public/js/jquery-ui.min.js"></script>
+    <script src="../../public/js/jquery.cookie.js"></script>
 </head>
 <body>
 <div class="container">

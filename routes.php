@@ -4,7 +4,7 @@ ini_set("display_errors", 1);
 
     $router->get('', 'IndexController@index');
     $router->get('products', 'ProductController@index');
-echo (".<a href=\"/products\">Стульчики для кормления</a>.");
+    $router->get('create/order', 'BasketController@index');
 
 function vardump($var) {
     echo '<pre>';

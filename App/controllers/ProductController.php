@@ -2,10 +2,13 @@
 
 namespace App\Controllers;
 
+use App\Models\Product;
+
 class ProductController
 {
     public function index()
     {
-        return view("products");
+        $products = new Product();
+        return view("products", ['products'=> $products->all()]);
     }
 }

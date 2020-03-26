@@ -77,9 +77,9 @@ body {
 
 @font-face {
     font-family: "RotondaBold";
-    src: url("../styles/converted-files/RotondaBold.svg#RotondaBold") format("svg"),
-    url("../styles/converted-files/RotondaBold.ttf") format("truetype"),
-    url("../styles/converted-files/RotondaBold.woff") format("woff");
+    src: url("../css/converted-files/RotondaBold.svg#RotondaBold") format("svg"),
+    url("../css/converted-files/RotondaBold.ttf") format("truetype"),
+    url("../css/converted-files/RotondaBold.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -324,4 +324,20 @@ div.minus{
 
 .cross{
     height: 20px;
+}
+
+.products>div{
+    align-items: center;
+    word-wrap: break-word;
+}
+
+input[type=number]{
+    width: 50px;
+}
+
+.products>.produc{
+    background-color: rgba(128, 128, 128, 0.25);
+    border-radius: 3px;
+    border: 5px;
+    padding: 4px;
 }
