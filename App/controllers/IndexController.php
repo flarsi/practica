@@ -8,4 +8,9 @@ class IndexController
     {
         return view('index');
     }
+
+    public function products()
+    {
+        return view("products");
+    }
 }

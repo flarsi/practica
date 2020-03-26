@@ -34,8 +34,8 @@
                                 </div>
                                 <div class="col">
                                     <a href="" class="text">Детские кровати</a><br>
-                                    <a href="" class="text">Матрасы</a><br>
-                                    <a href="" class="text">Стульчики для кормления</a><br>
+                                    <a href="/" class="text">Матрасы</a><br>
+                                    <a href="/products" class="text">Стульчики для кормления</a><br>
                                     <a href="" class="text">Манежи</a><br>
                                     <a href="" class="text">Пеленальные столы</a><br>
                                     <a href="" class="text">Шкафы</a><br>

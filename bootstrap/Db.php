@@ -6,7 +6,7 @@ class Db
     {
         try {
             $pdo = new PDO(
-                'mysql:host=localhost;dbname=practica',
+                'mysql:host=localhost;dbname=fastshop',
                 'root',
                 '123456'
             );
