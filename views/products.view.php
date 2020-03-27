@@ -11,7 +11,7 @@
                         <div class="row m-2">
                             <div class="col-3"></div>
                             <div class="col-2">Название</div>
-                            <div class="col-2">цена</div>
+                            <div class="col-2">цена грн.</div>
                             <div class="col-3">описание</div>
                             <div class="col-2">количество</div>
                         </div>

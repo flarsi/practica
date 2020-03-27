@@ -6,4 +6,5 @@ $(document).ready(function () {
         localStorage.removeItem(this.id)
         this.closest(".product").remove()
     })
+    console.log(localStorage)
 })

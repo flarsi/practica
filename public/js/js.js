@@ -19,7 +19,6 @@ $(document).ready(function () {
         $(".basket").val()
         console.log(localStorage)
     })
-    // localStorage.clear()
 
     $(".products-in-basket").text("В вашей корзине: " + localStorage.length)
     if(localStorage.length >= 5){
