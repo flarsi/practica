@@ -40,7 +40,7 @@ class Router
                 ...explode('@',$this->routes[$requestMethod][$uri])
             );
         }
-        throw new Exception('No route defined');
+        throw new \Exception('No route defined');
     }
 
     public function callAction($controller, $action)

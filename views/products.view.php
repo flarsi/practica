@@ -136,4 +136,6 @@
         <div class="col-1"></div>
     </div>
 
+    <script src="http://<?= $_SERVER['HTTP_HOST'] ?>/public/js/products.js" ></script>
+
 <?php require "layouts/footer.view.php"?>

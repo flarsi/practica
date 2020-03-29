@@ -25,6 +25,8 @@ $(document).ready(function () {
         $(".tovari").text("товаров")
     }
 
+
+
 });
 
 $( function() {
