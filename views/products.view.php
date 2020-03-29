@@ -5,28 +5,16 @@
         <div class="col-10">
             <div class="content row">
                 <div class="col-9">
-
-                    <?php if(!empty($products)): ?>
                     <div class="products">
-                        <div class="row m-2">
+                        <div class="row m-2 thead">
                             <div class="col-3"></div>
                             <div class="col-2">Название</div>
                             <div class="col-2">цена грн.</div>
                             <div class="col-3">описание</div>
                             <div class="col-2">количество</div>
                         </div>
-                        <?php foreach ($products as $product):?>
-                        <div class="row m-2 produc" id="product-<?=$product['id'] ?>">
-                            <div class="col-2"><img style="height: 100px; border-radius: 5px" src="../public/images/<?=$product['img_name']?>.png" alt=""></div>
-                            <div class="col-2 big-text product_name"><?=$product['name'] ?></div>
-                            <div class="col-2 big-text product_price"><?=$product['price'] ?></div>
-                            <div class="col-3 text"><?=$product['desc'] ?></div>
-                            <div class="col"><input class="counter" type="number" value="0"></div>
-                        </div>
-                        <?php endforeach; ?>
                         <button type="button" class="m-2 submit float-right btn btn-primary">Submit</button>
                     </div>
-                    <?php endif; ?>
                 </div>
                 <div class="col-3 right-bar ">
                     <div class="row basket p-3">
@@ -38,8 +26,6 @@
                     </div>
 
                     <div class="col brends m-0">
-
-                        <!--                        <div class="big-text h1" style="height: min-content">Список брендов</div>-->
                         <div class="big-text" style="text-align: center; font-size: 13pt">Список брендов</div>
                         <div class="row p-0 m-0">
                             <div class="col-6 p-0 m-0">
