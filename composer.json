@@ -1,16 +1,7 @@
 {
-    "name": "professional/pratica",
-    "authors": [
-        {
-            "name": "Danil Dan",
-            "email": "danil@gmail.com"
-        }
-    ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "App\\": "App",
-            "Bootstrap\\": "Bootstrap"
-        }
+    "autoload":{
+        "classmap":[
+            "./"
+        ]
     }
 }
