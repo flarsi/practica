@@ -120,3 +120,4 @@ function extractFromStorage(storage) {
 
     return elements
 }
+

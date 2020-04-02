@@ -28,55 +28,12 @@
                     <div class="col brends m-0">
                         <div class="big-text" style="text-align: center; font-size: 13pt">Список брендов</div>
                         <div class="row p-0 m-0">
-                            <div class="col-6 p-0 m-0">
-                                <a href="" class="brend-text col">Adamex</a>
-                                <a href="" class="brend-text col">Anmar</a>
-                                <a href="" class="brend-text col">Aro</a>
-                                <a href="" class="brend-text col">Bebetto</a>
-                                <a href="" class="brend-text col">Bogus</a>
-                                <a href="" class="brend-text col">Capella Ltd</a>
-                                <a href="" class="brend-text col">Infiniry</a>
-                                <a href="" class="brend-text col">Kajtex</a>
-                                <a href="" class="brend-text col">Riko</a>
-                                <a href="" class="brend-text col">Shenma Group</a>
-                                <a href="" class="brend-text col">Tako</a>
-                                <a href="" class="brend-text col">Teddy</a>
-                                <a href="" class="brend-text col">Roan</a>
-                                <a href="" class="brend-text col">Adamex</a>
-                                <a href="" class="brend-text col">Anmar</a>
-                                <a href="" class="brend-text col">Aro</a>
-                                <a href="" class="brend-text col">Bebetto</a>
-                                <a href="" class="brend-text col">Bogus</a>
-                                <a href="" class="brend-text col">Capella</a>
-                                <a href="" class="brend-text col">Infiniry</a>
-                                <a href="" class="brend-text col">Kajtex</a>
 
-                            </div>
+                            <div class="col-6 p-0 m-0"></div>
 
-                            <div class="col-6 p-0">
-                                <a href="" class="brend-text col">Adamex</a>
-                                <a href="" class="brend-text col">Anmar</a>
-                                <a href="" class="brend-text col">Aro</a>
-                                <a href="" class="brend-text col">Bebetto</a>
-                                <a href="" class="brend-text col">Bogus</a>
-                                <a href="" class="brend-text col">Capella Ltd</a>
-                                <a href="" class="brend-text col">Infiniry</a>
-                                <a href="" class="brend-text col">Tako</a>
-                                <a href="" class="brend-text col">Teddy</a>
-                                <a href="" class="brend-text col">Roan</a>
-                                <a href="" class="brend-text col">Adamex</a>
-                                <a href="" class="brend-text col">Anmar</a>
-                                <a href="" class="brend-text col">Aro</a>
-                                <a href="" class="brend-text col">Bebetto</a>
-                                <a href="" class="brend-text col">Bogus</a>
-                                <a href="" class="brend-text col">Capella</a>
-                                <a href="" class="brend-text col">Infiniry</a>
-                                <a href="" class="brend-text col">Kajtex</a>
-                                <a href="" class="brend-text col">Riko</a>
-                            </div>
+                            <div class="col-6 p-0"></div>
                         </div>
                     </div>
-
                     <div class="col row reclam-2 m-0 p-0">
                         <div class="col-4 p-0 m-2">
                             <img src="../public/images/deliv.png" alt="" class="car-img m-3 h-50">
@@ -121,7 +78,37 @@
         </div>
         <div class="col-1"></div>
     </div>
+    <script>
 
+        $(document).ready(function () {
+            console.log($(".brends div.col-6"))
+            generateRightBar()
+        })
+
+        function generateRightBar () {
+            fetch('https://restcountries.eu/rest/v2/regionalbloc/eu')
+                .then((response) => {
+                    return response.json()
+                })
+
+                .then((response) => {
+                    const arr = [sliceArr(response, 0, Math.floor(response.length/2)),
+                    sliceArr(response, Math.floor(response.length/2), response.length)]
+
+                    arr.forEach(function (element, index) {
+                        let col = $(".brends div.col-6")[index]
+
+                        element.forEach(function (element) {
+                            $(col).append("<a href=\"\" class=\"row m-2 brend-text\">"+ element.capital +"</a>")
+                        })
+                    })
+                })
+
+            function sliceArr(obj, first, second) {
+                return obj.slice(first, second)
+            }
+        }
+    </script>
     <script src="http://<?= $_SERVER['HTTP_HOST'] ?>/public/js/products.js" ></script>
 
 <?php require "layouts/footer.view.php"?>
