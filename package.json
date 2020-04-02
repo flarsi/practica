@@ -1,0 +1,22 @@
+{
+  "name": "practica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flarsi/practica.git"
+  },
+  "author": "Danil Dercach <danil.zap63.dd@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flarsi/practica/issues"
+  },
+  "homepage": "https://github.com/flarsi/practica#readme",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}

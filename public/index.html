@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .add-button {
+            position: absolute;
+            top: 1px;
+            left: 1px;
+        }
+    </style>
+    <script>
+        if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+            .register('/sw.js')
+            .then(function() {
+                console.log('Service worker registered!');
+            });
+    }
+    </script>
+</head>
+<body>
+    <div class="hello">Hello World!!</div>
+    <div class="hello">DERKACH</div>
+    <button class="add-button">Add to home screen</button>
+
+    <img src="images/logo.png"/>
+</body>
+</html>
